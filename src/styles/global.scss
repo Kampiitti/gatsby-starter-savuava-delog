@@ -9,16 +9,16 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
-  --primary-text-color: #fff;
-  --featured-bg: #493b8a;
-  --featured-text: #fff;
+  --primary-color: #2C3531;
+  --primary-text-color: #D1E8E2;
+  --featured-bg: #D9B08C;
+  --featured-text: #D1E8E2;
   --secondary-color: #10072b;
-  --background: #fff;
+  --background: #2a7172;
   --site-header: var(--background);
   --card-bg: #fff;
   --card-bdr: #eee;
-  --card-shadow: #d5d5d5;
+  --card-shadow: #FFCB9A;
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
@@ -53,7 +53,7 @@ body.dark {
 /* System Fonts as used by Medium and WordPress */
 body {
   font-family: $font-family;
-  border-top: 10px solid var(--primary-color);
+  border-top: 30px solid var(--primary-color);
   background-color: var(--background);
   color: var(--text-color);
 }
@@ -77,7 +77,7 @@ a {
   align-items: center;
   font-weight: 300;
   a {
-    color: #888;
+    color: #e0e0e0;
     text-decoration: none;
     margin: 0 8px 0;
     &[aria-current] {
