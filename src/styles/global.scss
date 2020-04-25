@@ -15,7 +15,7 @@ body.light {
   --featured-text: #D1E8E2;
   --secondary-color: #10072b;
   --background: #2a7172;
-  --site-header: var(--background);
+  --site-header: #D9B08C;
   --card-bg: #fff;
   --card-bdr: #eee;
   --card-shadow: #FFCB9A;
@@ -65,8 +65,8 @@ a {
   }
 }
 .site-wrapper {
-  padding: 32px;
-  max-width: 1140px;
+  //padding: 24px;
+  max-width: flex;
   margin: 0 auto;
   img {
     max-width: 100%;
@@ -95,9 +95,9 @@ a {
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 10px;
   background: var(--site-header);
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   align-items: center;
 }
 .site-title a {
@@ -108,7 +108,8 @@ a {
 }
 .hero-header {
   padding: 0 0 64px;
-  max-width: 980px;
+  max-width: 1140px;
+  margin-left: 120px;
 }
 .headline {
   font-size: 36px;
@@ -149,6 +150,7 @@ a {
   font-weight: 300;
 }
 .post {
+  max-width: 1140px;
   padding: 0;
   background:var(--background);
   color: var(--text-color);
@@ -210,9 +212,11 @@ a {
 }
 .grids {
   display: grid;
+  max-width: 1140px;
   grid-template-columns: 1fr;
   grid-gap: 32px;
   margin-top: 32px;
+  margin-left: 120px;
 }
 .card {
   display: grid;
