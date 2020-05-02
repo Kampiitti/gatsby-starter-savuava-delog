@@ -151,13 +151,15 @@ a {
 }
 .post {
   max-width: 1140px;
-  padding: 120px;
-  background:var(--background);
-  color: var(--text-color);
+  padding: 60px;
+  margin-left: 20px;
+  background: #fff;
+  color: #000000;
   line-height: 1.5;
   > .blog-post-content {
-    max-width: 768px;
-    margin: 0 auto;
+    padding-left: 10px;
+    max-width: 860px;
+    margin: 20px;
   }
   > .blog-post-content *:last-child,
   > *:last-child {
